@@ -16,10 +16,17 @@
         <link rel="shortcut icon" href="./Resurse/Imagini/Favicon/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="./Resurse/Imagini/Favicon/apple-touch-icon.png" />
         <link rel="manifest" href="./Resurse/Imagini/Favicon/site.webmanifest" />
+
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     
     <body id="top">
-        <header>
+        <header id="header-principal">
             <nav>
                 <ul>
                     <li>
@@ -37,7 +44,7 @@
                     <li><a href="#subsol">Contact</a></li>
                 </ul>
             </nav>
-            <h1>Mech Forge</h1>  
+            <h1><i class="fa-solid fa-keyboard"></i> Mech Forge <i class="fa-solid fa-gear fa-spin"></i></h1>  
             <img src="Resurse/Imagini/sigla.png" alt="Logo MechForge" width="150" />
         </header>
 
@@ -97,65 +104,68 @@
 
             <section id="media">
                 <h2>Tutoriale Video (Youtube)</h2>
-                <div>
-                    <a href="https://www.youtube-nocookie.com/embed/jYiH6P53miM" target="iframe-tutoriale">Ghid Lube Switch-uri</a> |
-                    <a href="https://www.youtube-nocookie.com/embed/yQqJafC7xv0" target="iframe-tutoriale">Construire Barebone</a> |
-                    <a href="https://www.youtube-nocookie.com/embed/KKXziJ9Ye4U" target="iframe-tutoriale">Revenire video inițial (Sound Test)</a>
+                <div class="container-iframe">
+                    <div class="taburi-iframe">
+                        <a href="https://www.youtube-nocookie.com/embed/jYiH6P53miM" target="iframe-tutoriale">Ghid Lube Switch-uri</a>
+                        <a href="https://www.youtube-nocookie.com/embed/yQqJafC7xv0" target="iframe-tutoriale">Construire Barebone</a>
+                        <a href="https://www.youtube-nocookie.com/embed/KKXziJ9Ye4U" target="iframe-tutoriale">Revenire video inițial (Sound Test)</a>
+                    </div>
+                    <iframe name="iframe-tutoriale" width="560" height="315" src="https://www.youtube-nocookie.com/embed/KKXziJ9Ye4U" title="YouTube video player" allowfullscreen></iframe>
                 </div>
-                <br>
-                <iframe name="iframe-tutoriale" width="560" height="315" src="https://www.youtube-nocookie.com/embed/KKXziJ9Ye4U" title="YouTube video player" allowfullscreen></iframe>
             </section>
 
             <section id="statistici">
                 <h2>Specificații și Statistici</h2>
                 
-                <table>
-                    <caption>Comparație tehnică a celor mai populare switch-uri</caption>
-                    <thead>
-                        <tr>
-                            <th>Nume Switch</th>
-                            <th>Tip Acționare</th>
-                            <th>Forță Apăsare</th>
-                            <th>Nivel Zgomot</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Cherry MX Red</td>
-                            <td rowspan="2">Liniar</td>
-                            <td>45g</td>
-                            <td>Redus</td>
-                        </tr>
-                        <tr>
-                            <td>Gateron Yellow</td>
-                            <td>50g</td>
-                            <td>Redus spre Mediu</td>
-                        </tr>
-                        <tr>
-                            <td>Cherry MX Brown</td>
-                            <td>Tactil</td>
-                            <td>55g</td>
-                            <td>Mediu</td>
-                        </tr>
-                        <tr>
-                            <td>Cherry MX Blue</td>
-                            <td>Clicky</td>
-                            <td>60g</td>
-                            <td>Ridicat</td>
-                        </tr>
-                        <tr>
-                            <td>Kailh Box Jade</td>
-                            <td>Clicky (Gros)</td>
-                            <td>65g</td>
-                            <td>Foarte Ridicat</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="4">Datele sunt informative. Forța reală poate varia ușor (±5g).</td>
-                        </tr>
-                    </tfoot>
-                </table>
+                <div class="table-container">
+                    <table>
+                        <caption>Comparație tehnică a celor mai populare switch-uri</caption>
+                        <thead>
+                            <tr>
+                                <th>Nume Switch</th>
+                                <th>Tip Acționare</th>
+                                <th>Forță Apăsare</th>
+                                <th>Nivel Zgomot</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cherry MX Red</td>
+                                <td rowspan="2">Liniar</td>
+                                <td>45g</td>
+                                <td>Redus</td>
+                            </tr>
+                            <tr>
+                                <td>Gateron Yellow</td>
+                                <td>50g</td>
+                                <td>Redus spre Mediu</td>
+                            </tr>
+                            <tr>
+                                <td>Cherry MX Brown</td>
+                                <td>Tactil</td>
+                                <td>55g</td>
+                                <td>Mediu</td>
+                            </tr>
+                            <tr>
+                                <td>Cherry MX Blue</td>
+                                <td>Clicky</td>
+                                <td>60g</td>
+                                <td>Ridicat</td>
+                            </tr>
+                            <tr>
+                                <td>Kailh Box Jade</td>
+                                <td>Clicky (Gros)</td>
+                                <td>65g</td>
+                                <td>Foarte Ridicat</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">Datele sunt informative. Forța reală poate varia ușor (±5g).</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
 
                 <br>
                 <h3>Statistici Stocuri Magazin</h3>
@@ -175,13 +185,13 @@
                 </dl>
                 
                 <h3>Bonus: Formula arcului intern</h3>
-                <p>Calculul forței de bottom-out pentru un switch mecanic (F) în funcție de constanta arcului (k) și distanța apăsării (x):</p>
+                <p>Calculul forței de bottom-out pentru un switch mecanic ($F$) în funcție de constanta arcului ($k$) și distanța apăsării ($x$):</p>
                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                     <mi>F</mi>
                     <mo>=</mo>
                     <mo>-</mo>
                     <mi>k</mi>
-                    <mo>&#xB7;</mo>
+                    <mo>·</mo>
                     <mi>x</mi>
                 </math>
             </section>
@@ -201,10 +211,16 @@
                     <p>Da, avem în stoc lubrifianți specializați (inclusiv Krytox 205g0) în secțiunea de Modding.</p>
                 </details>
             </section>
+
+            <div id="zona4" class="grid-placeholder">Lorem ipsum (Zona anunțuri/reclame)</div>
+            <div id="zona7" class="grid-placeholder">Lorem ipsum (Date server/site)</div>
+
         </main>
 
         <footer id="subsol">
-            <p><a href="#top" title="Mergi sus">^ Înapoi la începutul paginii</a></p>
+            <a href="#top" id="link-top" title="Mergi în susul paginii">
+                <div id="triunghi">↑</div>
+            </a>
             
             <address>
                 Sediul Central Mech Forge:<br>
@@ -216,8 +232,7 @@
                 Contact Rapid: <a href="https://wa.me/40711123456" target="_blank">Chat pe WhatsApp</a>
             </address>
 
-            <p><small>Copyright &copy; <time datetime="2026-03-02">2 martie 2026</time> Rădulescu David. Toate drepturile rezervate.</small></p>
-            
-            </footer>
+            <p><small>Copyright © <time datetime="2026-03-02">2 martie 2026</time> Rădulescu David. Toate drepturile rezervate.</small></p>
+        </footer>
     </body>
 </html>
