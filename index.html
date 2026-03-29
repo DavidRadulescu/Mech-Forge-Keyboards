@@ -8,6 +8,7 @@
         <meta name="keywords" content="tastaturi, tastaturi mecanice, Mech Forge, magazin Mech Forge, tastaturi custom, switch-uri, keycaps, componente tastatura, modding">
         <meta name="msapplication-TileColor" content="#2b5797">
         <title>Mech Forge - Magazin Tastaturi Custom</title>
+        
         <link rel="icon" type="image/png" href="./Resurse/Imagini/Favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="./Resurse/Imagini/Favicon/favicon.svg" />
         <link rel="shortcut icon" href="./Resurse/Imagini/Favicon/favicon.ico" />
@@ -15,6 +16,7 @@
         <link rel="manifest" href="./Resurse/Imagini/Favicon/site.webmanifest" />
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,11 +26,20 @@
     
     <body id="top">
         <header id="header-principal">
-            <nav>
-                <ul>
+            
+            <nav id="meniu-principal">
+                <label id="hamburger" for="ch-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input id="ch-menu" type="checkbox">
+
+                <ul class="meniu">
                     <li>
-                        <a href="#top">Acasă</a>
-                        <ul>
+                        <a href="#top" id="link-acasa">
+                            <i class="fa-solid fa-house fa-fw"></i>
+                            <span class="text-optiune">Acasă</span>
+                        </a>
+                        <ul class="submeniu">
                             <li><a href="#welcome">Prezentare</a></li>
                             <li><a href="#produse">Produse Custom</a></li>
                             <li><a href="#evenimente">Evenimente</a></li>
@@ -37,8 +48,25 @@
                             <li><a href="#faq">Întrebări Frecvente</a></li>
                         </ul>
                     </li>
-                    <li><a href="magazin.html">Magazin Componente</a></li>
-                    <li><a href="#subsol">Contact</a></li>
+                    
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-box-open fa-fw"></i>
+                            <span class="text-optiune">Magazin</span>
+                        </a>
+                        <ul class="submeniu">
+                            <li><a href="magazin.html">Toate Produsele</a></li>
+                            <li><a href="switchuri.html">Switch-uri</a></li>
+                            <li><a href="keycaps.html">Keycaps</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#subsol">
+                            <i class="fa-solid fa-envelope fa-fw"></i>
+                            <span class="text-optiune">Contact</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <h1><i class="fa-solid fa-keyboard"></i> Mech Forge <i class="fa-solid fa-gear fa-spin"></i></h1>  
@@ -105,7 +133,6 @@
 
             <section id="statistici">
                 <h2>Specificații și Statistici</h2>
-                
                 <div class="table-container">
                     <table>
                         <caption>Comparație tehnică a celor mai populare switch-uri</caption>
