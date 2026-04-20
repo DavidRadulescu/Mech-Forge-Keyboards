@@ -1,0 +1,31 @@
+{
+    "cale_baza": "/resurse/imagini/erori/",
+    "eroare_default": {
+        "titlu": "Eroare Neașteptată",
+        "text": "Ne pare rău, a apărut o problemă misterioasă în forjă. Încearcă mai târziu.",
+        "imagine": "default.png"
+    },
+    "info_erori": [
+        {
+            "identificator": 404,
+            "status": true,
+            "titlu": "Eroare 404: Pagina nu a fost găsită",
+            "text": "Se pare că switch-ul pe care l-ai apăsat nu duce nicăieri. Pagina căutată nu mai există.",
+            "imagine": "404.png"
+        },
+        {
+            "identificator": 403,
+            "status": true,
+            "titlu": "Eroare 403: Acces Interzis",
+            "text": "Nu ai nivelul de autorizare necesar pentru a vizualiza interiorul acestui folder.",
+            "imagine": "403.png"
+        },
+        {
+            "identificator": 400,
+            "status": true,
+            "titlu": "Eroare 400: Cerere Invalidă",
+            "text": "Fișierele de sistem sunt blocate. Nu poți accesa direct șabloanele EJS.",
+            "imagine": "400.png"
+        }
+    ]
+}

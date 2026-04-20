@@ -1,0 +1,28 @@
+{
+  "name": "mech-forge-keyboards",
+  "version": "1.0.0",
+  "description": "Magazin Tastaturi Custom",
+  "keywords": [
+    "tastaturi",
+    "magazin"
+  ],
+  "homepage": "https://github.com/DavidRadulescu/Mech-Forge-Keyboards#readme",
+  "bugs": {
+    "url": "https://github.com/DavidRadulescu/Mech-Forge-Keyboards/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRadulescu/Mech-Forge-Keyboards.git"
+  },
+  "license": "ISC",
+  "author": "David Radulescu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}
