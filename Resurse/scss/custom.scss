@@ -1,0 +1,20 @@
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+$primary: #e63946;   
+$secondary: #457b9d; 
+
+$primary-text-emphasis: #1d3557;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 800px,   
+  lg: 1100px,  
+  xl: 1200px,
+  xxl: 1400px
+);
+$border-radius: 1.25rem;
+$h1-font-size: 3.5rem;
+$h2-font-size: 2.8rem;
+@import "../../node_modules/bootstrap/scss/bootstrap";

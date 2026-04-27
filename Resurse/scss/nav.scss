@@ -1,3 +1,4 @@
+@use "sass:color";
 $bg-meniu: var(--bg-section);
 $bg-meniu-deschis: #3a3a40; 
 $text-meniu: var(--text-color);
@@ -144,7 +145,7 @@ $latime-buton: 180px;
                     position: static; 
                     display: none; 
                     transform: none; 
-                    background-color: darken(#2E2E33, 5%);
+                    background-color: color.adjust(#2E2E33, $lightness: -5%);
                     box-shadow: none;
                 }
             }

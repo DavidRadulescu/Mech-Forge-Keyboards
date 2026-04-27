@@ -1,0 +1,13 @@
+<section id="sectiune-galerie">
+    <h2>Galerie Statică (<%= imagini.length > 0 ? imagini[0].timp : 'fără poze' %>)</h2>
+    <div id="galerie-statica" class="grid-galerie">
+        <% locals.imagini.forEach(function(img) { %>
+            <figure class="galerie-item">
+                <picture>
+                    <img src="<%= img.cale_absoluta %>" alt="<%= img.alt || img.nume %>" title="<%= img.descriere %>">
+                </picture>
+                <figcaption><%= img.descriere %></figcaption>
+            </figure>
+        <% }); %>
+    </div>
+</section>

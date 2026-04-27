@@ -1,0 +1,17 @@
+{
+    "cale_galerie": "/resurse/imagini/galerie/",
+    "imagini": [
+        {"cale_relativa":"t1.jpg", "nume":"Tastatură Dimineața 1", "descriere":"Un model alb, perfect pentru cafeaua de dimineață.", "timp":"dimineata", "alt":"Tastatură albă mecanică"},
+        {"cale_relativa":"t2.jpg", "nume":"Tastatură Dimineața 2", "descriere":"Switch-uri silențioase pentru a nu trezi casa.", "timp":"dimineata"},
+        {"cale_relativa":"t3.jpg", "nume":"Tastatură Dimineața 3", "descriere":"Design minimalist, lumină naturală.", "timp":"dimineata"},
+        {"cale_relativa":"t4.jpg", "nume":"Tastatură Ziua 1", "descriere":"Tastatură robustă pentru ore de programare.", "timp":"zi"},
+        {"cale_relativa":"t5.jpg", "nume":"Tastatură Ziua 2", "descriere":"Culori vii care să te țină treaz la birou.", "timp":"zi"},
+        {"cale_relativa":"t6.jpg", "nume":"Tastatură Ziua 3", "descriere":"Profil redus pentru viteză mare de tastare.", "timp":"zi", "alt":"Tastatură low profile"},
+        {"cale_relativa":"t7.jpg", "nume":"Tastatură Ziua 4", "descriere":"Format 60% pentru mai mult spațiu de mouse.", "timp":"zi"},
+        {"cale_relativa":"t8.jpg", "nume":"Tastatură Ziua 5", "descriere":"Switch-uri tactile, feedback excelent.", "timp":"zi"},
+        {"cale_relativa":"t9.jpg", "nume":"Tastatură Ziua 6", "descriere":"Keycaps din PBT gros.", "timp":"zi"},
+        {"cale_relativa":"t10.jpg", "nume":"Tastatură Noaptea 1", "descriere":"Lumini RGB intense pentru gaming nocturn.", "timp":"noapte"},
+        {"cale_relativa":"t11.jpg", "nume":"Tastatură Noaptea 2", "descriere":"Cyberpunk theme, perfectă în întuneric.", "timp":"noapte"},
+        {"cale_relativa":"t12.jpg", "nume":"Tastatură Noaptea 3", "descriere":"Carcasă transparentă de acril iluminată.", "timp":"noapte"}
+    ]
+}

@@ -11,13 +11,21 @@
     <main>
         <section id="welcome">
             <hgroup>
-                <h2>Bine ați venit în paradisul pasionaților</h2>
+                <h2 data-text="Bine ați venit în paradisul pasionaților">Bine ați venit în paradisul pasionaților</h2>
             </hgroup>
-            <p>Magazinul nostru vă aduce cele mai bune <b>tastaturi mecanice</b> de pe piață. O <dfn>tastatură custom</dfn> este o tastatură construită de la zero, unde utilizatorul alege fiecare componentă. Clienții noștri ne spun mereu: <q>M-ați făcut să redescopăr plăcerea de a tasta!</q></p>
-            <p>Oferim suport nativ pentru carcase cu funcție <i>hot-swap</i>, ceea ce înseamnă că modding-ul este <s>dificil</s> <ins>extrem de ușor</ins>. Folosim materiale premium, precum <abbr title="Polybutylene Terephthalate">PBT</abbr> pentru taste.</p>
+            
+            <hr class="stilizat">
+
+            <div class="text-coloane">
+                <p>Magazinul nostru vă aduce cele mai bune <b>tastaturi mecanice</b> de pe piață. O <dfn>tastatură custom</dfn> este o tastatură construită de la zero, unde utilizatorul alege fiecare componentă. Clienții noștri ne spun mereu: <q>M-ați făcut să redescopăr plăcerea de a tasta!</q></p>
+                <p>Oferim suport nativ pentru carcase cu funcție <i>hot-swap</i>, ceea ce înseamnă că modding-ul este <s>dificil</s> <ins>extrem de ușor</ins>. Folosim materiale premium, precum <abbr title="Polybutylene Terephthalate">PBT</abbr> pentru taste.</p>
+            </div>
+            
             <p><strong>Atenție! Stocurile pentru luna curentă se epuizează foarte rapid.</strong> Nu mai stați pe gânduri și vizitați secțiunea noastră de <b>tastaturi custom</b>.</p>
+            
             <p>Puteți găsi inspirație pentru modding pe acest forum: <a href="https://geekhack.org/" target="_blank">GeekHack Forums</a>.</p>
             <p>Citiți documentația detaliată despre componente pe: <a href="https://deskthority.net/wiki/Main_Page#Switches" target="_blank">https://deskthority.net/<wbr>wiki/<wbr>Main_Page#Switches</a>.</p>
+            
             <figure>
                 <a href="/resurse/imagini/tastatura-mare.jpg">
                     <picture>
@@ -28,10 +36,23 @@
                 </a>
                 <figcaption>Tastatură custom asamblată folosind componente Mech Forge.</figcaption>
             </figure>
+            
             <p><a href="/resurse/imagini/ghid-standard.pdf" download="Ghid_Asamblare_MechForge.pdf">Descarcă ghidul nostru gratuit de asamblare (PDF)</a>.</p>
+            
             <blockquote cite="https://www.keyboardco.com">
                 "Tastatura este legătura directă dintre mintea omului și calculator. Fă-o să conteze." - <cite>The Keyboard Company</cite>
             </blockquote>
+        </section>
+
+        <%- include('../fragmente/galerie') %>
+
+        <section id="demonstratie-bootstrap" class="container mt-5 mb-5 p-4 bg-light rounded shadow">
+            <h2 class="text-primary mb-3">Demonstrație Bootstrap Custom</h2>
+            <div class="alert alert-secondary" role="alert">
+                Aceasta este o alertă folosind tema <strong>Secondary</strong> modificată! Colțurile sunt mai rotunjite conform variabilei noastre.
+            </div>
+            <button type="button" class="btn btn-primary btn-lg">Cumpără Tastatura (Primary)</button>
+            <button type="button" class="btn btn-secondary btn-lg">Află mai multe (Secondary)</button>
         </section>
 
         <section id="produse">
@@ -56,7 +77,6 @@
 
         <section id="media">
             <h2>Tutoriale și Prezentări Video</h2>
-            
             <video id="video-vtt" controls poster="/resurse/imagini/poster-video.jpg" preload="metadata">
                 <source src="/resurse/video/tastatura.mp4" type="video/mp4">
                 <source src="/resurse/video/tastatura.webm" type="video/webm">
@@ -65,7 +85,6 @@
                 Browserul tău nu suportă elementul video.
             </video>
             <br>
-
             <div class="container-iframe">
                 <div class="taburi-iframe">
                     <a href="https://www.youtube-nocookie.com/embed/jYiH6P53miM" target="iframe-tutoriale">Ghid Lube Switch-uri</a>
@@ -127,7 +146,6 @@
                     </tfoot>
                 </table>
             </div>
-
             <br>
             <h3>Statistici Stocuri Magazin</h3>
             <p>Nivelul stocului pentru switch-uri Cherry MX (Stoc epuizat): 
